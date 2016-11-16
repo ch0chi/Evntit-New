@@ -1,0 +1,364 @@
+/*Medai Queries*/
+@media(max-width:798px){
+    .eventActionContents i{
+        font-size:20px !important;
+    }
+    #search{
+        width:100%;
+    }
+}
+
+
+body{
+    color:#424242;
+    background-color:#e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/*Utility Classes*/
+.center-all{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.popout-text{
+    color:#fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
+}
+.scroll,.solid-bg{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+    height:50px;
+    border-bottom:none;
+    -webkit-transition: ease .5s; /* Safari */
+    transition: ease .5s;
+    background-color:rgba(0, 158, 255, .6) !important;
+}
+.navbarLiScroll{
+    font-size:15px !important;
+    line-height:20px !important;
+    -webkit-transition: ease .5s; /* Safari */
+    transition: ease .5s;
+    color:#ffffff !important;
+}
+
+/*Nav*/
+
+.navbar-default {
+    border: none;
+    /* background-color: #E86767; */
+    background-color: transparent;
+    margin-bottom: 0;
+    height: 50px;
+    -webkit-transition: ease .5s;
+    transition: ease .5s;
+}
+nav li a,nav li i{
+    color:#FFFFFF !important;
+    font-weight:600;
+}
+nav li i{
+    font-size:18px !important;
+    margin-top:18px !important;
+    padding-right:15px;
+}
+.navbar-brand{
+    color:#FFFFFF !important;
+    font-weight:600;
+}
+.dropdown-menu{
+    left:0 !important;
+    padding:0;
+    background-color:rgba(0, 158, 255, .6) !important;
+}
+.dropdown-menu>li>a:hover{
+    background-color:rgba(0, 158, 255, .9);
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus{
+    background-color:rgba(3, 139, 223,.6);
+}
+#avatar{
+    margin-top:-1%;
+    padding-right:15px;
+}
+/*spinner*/
+#spinner{
+    position:fixed;
+    top:50%;
+    left:50%;
+    z-index:10;
+    display:none;
+}
+#spinner >#spinnerBody{
+    text-align:center;
+}
+.version{
+    font-style:italic;
+    font-size:12px;
+}
+
+/*Login*/
+#loginWrap{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../Images/homeBg-Lg.jpg');
+    background-size:cover;
+    background-position:center;
+
+}
+#loginInnerWrap{
+    margin-top:-10em;
+}
+#login-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#login-content img{
+    margin-bottom:3em;
+}
+#fb-login button{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#fb-login i{
+    padding-right:10px;
+}
+
+/*Home*/
+#homeWrapper{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../Images/welcomeBGScaled.jpg');
+    background-size:cover;
+    background-position:center;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding-bottom: 6rem;
+    color: rgb(111, 108, 106);
+
+}
+#filter-panel{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formImage{
+    width:350px;
+    height:350px;
+}
+#search{
+    background-color: rgba(0,0,0,.3);
+
+}
+.filter-col{
+    color:#fff;
+}
+
+#suggestion-box{
+    position:absolute;
+    background-color:#fff;
+    text-decoration:none;
+    overflow-y:scroll;
+    cursor:pointer;
+    height:50px;
+    width:100%;
+
+    padding:0;
+    z-index:1;
+}
+#beforeSearchText{
+    cursor:default;
+}
+#beforeSearchText:hover{
+    background-color:transparent !important;
+}
+#suggestion-box>li{
+    text-decoration:none;
+
+    text-align:left;
+
+}
+#suggestion-box>li:hover{
+    background-color:rgba(0,0,0,.4);
+}
+#suggest-box >ul>li{
+    text-decoration:none;
+}
+
+/*datepicker*/
+.picker__day{
+    font-weight:400 !important;
+}
+/*authentication form*/
+.facebook{
+    margin-top:10%;
+}
+.facebook>span{
+
+}
+
+/*event dashboard*/
+.eventLink{
+    margin-top:20%;
+}
+.eventLink>button{
+    text-align:center;
+}
+/*Add Event*/
+.addEvent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#addEventHeader{
+    height:300px;
+    background-image:url('../Images/background2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+#addEventDescription{
+    height:200px;
+}
+
+/*Event Card*/
+.event{
+    padding:0px !important;
+    height:425px;
+    word-wrap:break-word;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.event button{
+    margin-top:25px;
+    display:block;
+}
+.eventCardBody{
+    word-wrap:break-word;
+    color:#494949;
+}
+
+.eventCardImage{
+    height:200px;
+    background-size:cover;
+    background-position:center;
+}
+.eventImage{
+    margin-top:2%;
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    margin-bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.eventHeader{
+    word-wrap:break-word;
+    color:#ffffff;
+    margin-bottom:2%;
+}
+.eventBody {
+    word-wrap: break-word;
+    color: #5A5A5A;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.eventHeader h1{
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
+}
+
+.eventHeader h4{
+    color:#494949 !important;
+}
+.eventCardUserName{
+    color:#44BBFF;
+}
+.eventBody >h4:nth-child(1){
+    text-align:center;
+
+}
+/*event signup errors*/
+#signupError{
+    display:none;
+}
+
+#message{
+    position:absolute;
+    right:5%;
+    top:10%;
+}
+.hr{
+    border-width:2px;
+    border-color:#A9AAA7;
+}
+/*Map*/
+#lat,#long{
+    display:none;
+}
+#map{
+    height:300px;
+    display:none;
+}
+
+/*Event Action Toolbar*/
+.eventActinWrapper{
+    height:100px;
+}
+.eventAction{
+    height:300px;
+    padding-top:0;
+    text-align:center;
+    background-color:#e5e5e5;
+}
+#eventToolBar{
+    height:30px;
+}
+.eventAction>.well{
+    height:200px;
+    padding:0;
+    margin:0;
+}
+.eventActionContents i{
+    color:#44BBFF;
+    cursor:pointer;
+    font-size:25px;
+    margin-top:10px;
+}
+.eventActionContents i:hover{
+    color:#0094EA;
+}
+#event_signup{
+    width:100%;
+    background-color:#66CC99;
+    color:#F9F9F9;
+    border:none;
+}
+#event_signup:hover{
+    background-color:#20CC76;
+}
+#map{
+    text-align:center;
+    background-color:#F9F9F9;
+    color:#44BBFF;
+    cursor:pointer;
+}
+
+/*Modal*/
+#messageModal h4{
+    color:#5A5A5A;
+}
+
+

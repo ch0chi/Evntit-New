@@ -1,0 +1,23 @@
+{
+  "name": "bower",
+  "description": "evntit_files",
+  "main": "bower_components",
+  "authors": [
+    "michael quattrochi"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "pusher-websocket-iso": "pusher#^3.1.0"
+  },
+  "install":{
+    "path": "js"
+  }
+}
